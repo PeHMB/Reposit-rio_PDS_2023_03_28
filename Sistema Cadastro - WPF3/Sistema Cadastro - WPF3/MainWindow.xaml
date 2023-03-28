@@ -1,0 +1,13 @@
+﻿<Window x:Class="Sistema_Cadastro___WPF3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sistema_Cadastro___WPF3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Cadastrar Contato" HorizontalAlignment="Left" Margin="196,101,0,0" VerticalAlignment="Top" Height="31" Width="84" Click="Button_Click"/>
+        <Button Content="Listar Contatos" HorizontalAlignment="Left" Margin="196,169,0,0" VerticalAlignment="Top" Height="31" Width="84"/>
+    </Grid>
+</Window>
